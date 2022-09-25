@@ -1,0 +1,21 @@
+wget -c https://releases.hashicorp.com/terraform/1.2.8/terraform_1.2.8_linux_amd64.zip
+
+unzip terraform_1.2.8_linux_amd64.zip
+
+sudo mv terraform /usr/sbin/
+
+terraform init
+
+terraform plan
+
+terraform apply
+
+terraform destory --auto-approve
+
+terraform workspace list
+
+terraform workspace new test
+
+terraform apply --auto-approve
+
+terraform destroy --auto-approve
